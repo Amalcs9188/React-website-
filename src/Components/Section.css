@@ -1,0 +1,17 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 40vh;
+    height: 40vh;
+}
+.section h1{
+    font-weight: bold;
+
+    
+}
+.section h3{
+    color: rgb(58, 57, 57);
+    
+}

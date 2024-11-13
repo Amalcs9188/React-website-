@@ -1,0 +1,176 @@
+.hero-wrapper{
+    background: rgba(4, 4, 4, 0.63) url("./pexels-erix07-15454393.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+    font-size: 1.5em;
+    color: #ffff;
+    
+}
+.hero-contents{
+    padding-bottom: 15%;
+    padding-top: 50px;
+    position: relative;
+}
+.hero-wrapper h1{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+
+}
+.hero-wrapper h6{
+    color: #fff;
+    text-align: center;
+    gap: 30PX;
+   
+}
+.search-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    border-radius: 12px;
+    
+    
+}
+.search-wrapper button{
+    background-color: orangered;
+    color: white;
+    /* border-radius: 5px; */
+    font-size: 1.2em;
+    padding: 25px 30px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    border: none;
+    margin: 0 20px;
+ ;
+    
+}
+
+.search-wrapper button:hover{
+    background-color: darkorange;
+    
+}
+.Search{
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 500px;
+}
+.Search input,
+.Search label {
+    border: none;
+    margin-left: 5px;
+    font-weight: bold;
+
+}
+.Search i{
+    margin: 0 15px;
+}
+.search-x{
+    font-size: .8em;
+    cursor: pointer;
+    transition: color 0.5s;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.hero-footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    position: absolute; 
+    bottom: -20%;
+    overflow: auto;
+    width: 100%;
+}
+.hero-fcontens{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #fff;
+    padding: 30px 20px ;
+    width: 180px;
+    height: 180px;
+    box-shadow: 2px 2px 8px rgb(42, 41, 41);
+    
+}
+.hero-fcontens i{
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.763);
+}
+.hero-fcontens h6{
+    color: black;
+    font-size: 0.7em;
+}
+.hero-fcontens p{
+    color: gray;
+    font-size: .7em;
+}
+.hero-fcontens:hover{
+    background-color: orangered;
+    transform: scale(1.1);
+    
+}
+.hero-fcontens:hover p,
+.hero-fcontens:hover h6,
+.hero-fcontens:hover i{
+    color: #fff;
+
+}
+@media  (max-width: 1419px){
+    .hero-fcontens{
+        width: 130px;
+        height: 130px;
+
+    }
+    .hero-fcontens i{
+        font-size: 2em;
+       
+    }
+    .hero-fcontens h6{
+        font-size:.6em;
+    }
+    .hero-fcontens p{
+        color: gray;
+        font-size: .5em;
+    }
+
+    
+}
+@media  (max-width: 977px){
+    .hero-fcontens{
+        width: 110px;
+        height: 110px;
+        
+        
+    }
+    .hero-contents{
+        overflow: auto;
+    }
+    .hero-footer{
+        overflow: scroll;
+        position: static;
+        /* flex-wrap: wrap; */
+       
+    }
+    
+
+    
+}
